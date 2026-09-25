@@ -1,3 +1,11 @@
+# Logistics Automation Hub — Histórico de Desenvolvimento V1.0
+
+> Documento histórico preservado para registrar a evolução dos builds,
+> Release Candidates e processo de homologação que antecederam a V1.1 Stable.
+
+Este documento não representa a documentação atual de instalação ou distribuição.
+Para informações sobre a versão vigente, consulte o README principal do projeto.
+
 # Logistics Automation Hub — V1.0
 
 Primeiro release candidato do módulo **Spreadsheet Automation**. A V1.0 consolida as funcionalidades homologadas até a V0.9 e faz o acabamento de experiência antes do primeiro empacotamento com PyInstaller.
