@@ -1,0 +1,63 @@
+{
+  "exact_duplicate": {
+    "enabled": true,
+    "severity": "Crítico",
+    "default_decision": "Remover"
+  },
+  "operational_duplicate": {
+    "enabled": true,
+    "severity": "Atenção",
+    "default_decision": "Revisar",
+    "fields": [
+      "Placa Veículo",
+      "Nº Documento / Carga",
+      "Motorista",
+      "Data Entrada",
+      "Hora Entrada",
+      "Tipo Operação",
+      "Doca"
+    ]
+  },
+  "required_fields": {
+    "enabled": true,
+    "severity": "Crítico",
+    "fields": [
+      "Placa Veículo",
+      "Nº Documento / Carga",
+      "Motorista",
+      "Data Entrada",
+      "Hora Entrada",
+      "Tipo Operação",
+      "Status"
+    ]
+  },
+  "datetime_order": {
+    "enabled": true,
+    "severity": "Crítico"
+  },
+  "completed_without_exit": {
+    "enabled": true,
+    "severity": "Atenção",
+    "statuses": [
+      "concluído",
+      "concluido",
+      "finalizado",
+      "finalizada"
+    ]
+  },
+  "allowed_status": {
+    "enabled": true,
+    "severity": "Atenção",
+    "values": [
+      "Aguardando",
+      "Em operação",
+      "Em Operação",
+      "Concluído",
+      "Concluido",
+      "Finalizado",
+      "Finalizada",
+      "Cancelado",
+      "Cancelada"
+    ]
+  }
+}
